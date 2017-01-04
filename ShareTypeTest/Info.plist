@@ -25,7 +25,7 @@
 			<string>weixin</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>wx4868b35061f87885</string>
+				<string>wx486</string>
 			</array>
 		</dict>
 		<dict>
@@ -35,7 +35,7 @@
 			<string>QQ</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>QQ41EB017E</string>
+				<string>QQ41</string>
 			</array>
 		</dict>
 		<dict>
@@ -45,7 +45,7 @@
 			<string>wb</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>wb778457573</string>
+				<string>wb77</string>
 			</array>
 		</dict>
 	</array>
