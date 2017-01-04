@@ -1,0 +1,647 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17D28BDC174FABD62E707B00 /* Pods_ShareTypeTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 048AA237967D0C9EA4C548E5 /* Pods_ShareTypeTest.framework */; };
+		C31823261E14A9CF00C9CCA1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C31823251E14A9CF00C9CCA1 /* main.m */; };
+		C31823291E14A9CF00C9CCA1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C31823281E14A9CF00C9CCA1 /* AppDelegate.m */; };
+		C318232C1E14A9CF00C9CCA1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C318232B1E14A9CF00C9CCA1 /* ViewController.m */; };
+		C318232F1E14A9CF00C9CCA1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C318232D1E14A9CF00C9CCA1 /* Main.storyboard */; };
+		C31823311E14A9CF00C9CCA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C31823301E14A9CF00C9CCA1 /* Assets.xcassets */; };
+		C31823341E14A9CF00C9CCA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C31823321E14A9CF00C9CCA1 /* LaunchScreen.storyboard */; };
+		C318233F1E14A9CF00C9CCA1 /* ShareTypeTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C318233E1E14A9CF00C9CCA1 /* ShareTypeTestTests.m */; };
+		C318234A1E14A9CF00C9CCA1 /* ShareTypeTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C31823491E14A9CF00C9CCA1 /* ShareTypeTestUITests.m */; };
+		C39F86F21E1CC0EE001812A8 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = C39F86F11E1CC0EE001812A8 /* UIView+Extension.m */; };
+		C39F86F81E1CC111001812A8 /* ShareButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C39F86F51E1CC111001812A8 /* ShareButton.m */; };
+		C39F86F91E1CC111001812A8 /* ShareView.m in Sources */ = {isa = PBXBuildFile; fileRef = C39F86F71E1CC111001812A8 /* ShareView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C318233B1E14A9CF00C9CCA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C31823191E14A9CE00C9CCA1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C31823201E14A9CF00C9CCA1;
+			remoteInfo = ShareTypeTest;
+		};
+		C31823461E14A9CF00C9CCA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C31823191E14A9CE00C9CCA1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C31823201E14A9CF00C9CCA1;
+			remoteInfo = ShareTypeTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		048AA237967D0C9EA4C548E5 /* Pods_ShareTypeTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShareTypeTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		34F2871A78C060968A500F2D /* Pods-ShareTypeTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShareTypeTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ShareTypeTest/Pods-ShareTypeTest.debug.xcconfig"; sourceTree = "<group>"; };
+		71CFE5F38A5672BE97B37AA1 /* Pods-ShareTypeTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShareTypeTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-ShareTypeTest/Pods-ShareTypeTest.release.xcconfig"; sourceTree = "<group>"; };
+		C31823211E14A9CF00C9CCA1 /* ShareTypeTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShareTypeTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C31823251E14A9CF00C9CCA1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C31823271E14A9CF00C9CCA1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C31823281E14A9CF00C9CCA1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C318232A1E14A9CF00C9CCA1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C318232B1E14A9CF00C9CCA1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C318232E1E14A9CF00C9CCA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C31823301E14A9CF00C9CCA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C31823331E14A9CF00C9CCA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C31823351E14A9CF00C9CCA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C318233A1E14A9CF00C9CCA1 /* ShareTypeTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShareTypeTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C318233E1E14A9CF00C9CCA1 /* ShareTypeTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShareTypeTestTests.m; sourceTree = "<group>"; };
+		C31823401E14A9CF00C9CCA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C31823451E14A9CF00C9CCA1 /* ShareTypeTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShareTypeTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C31823491E14A9CF00C9CCA1 /* ShareTypeTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShareTypeTestUITests.m; sourceTree = "<group>"; };
+		C318234B1E14A9CF00C9CCA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C39F86F01E1CC0EE001812A8 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		C39F86F11E1CC0EE001812A8 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		C39F86F41E1CC111001812A8 /* ShareButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareButton.h; sourceTree = "<group>"; };
+		C39F86F51E1CC111001812A8 /* ShareButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareButton.m; sourceTree = "<group>"; };
+		C39F86F61E1CC111001812A8 /* ShareView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareView.h; sourceTree = "<group>"; };
+		C39F86F71E1CC111001812A8 /* ShareView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C318231E1E14A9CF00C9CCA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17D28BDC174FABD62E707B00 /* Pods_ShareTypeTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C31823371E14A9CF00C9CCA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C31823421E14A9CF00C9CCA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3923474E40AD68A22AB3C608 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				34F2871A78C060968A500F2D /* Pods-ShareTypeTest.debug.xcconfig */,
+				71CFE5F38A5672BE97B37AA1 /* Pods-ShareTypeTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AAC955222E7C9962C6759CBF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				048AA237967D0C9EA4C548E5 /* Pods_ShareTypeTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C31823181E14A9CE00C9CCA1 = {
+			isa = PBXGroup;
+			children = (
+				C31823231E14A9CF00C9CCA1 /* ShareTypeTest */,
+				C318233D1E14A9CF00C9CCA1 /* ShareTypeTestTests */,
+				C31823481E14A9CF00C9CCA1 /* ShareTypeTestUITests */,
+				C31823221E14A9CF00C9CCA1 /* Products */,
+				3923474E40AD68A22AB3C608 /* Pods */,
+				AAC955222E7C9962C6759CBF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C31823221E14A9CF00C9CCA1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C31823211E14A9CF00C9CCA1 /* ShareTypeTest.app */,
+				C318233A1E14A9CF00C9CCA1 /* ShareTypeTestTests.xctest */,
+				C31823451E14A9CF00C9CCA1 /* ShareTypeTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C31823231E14A9CF00C9CCA1 /* ShareTypeTest */ = {
+			isa = PBXGroup;
+			children = (
+				C39F86F31E1CC111001812A8 /* Share */,
+				C39F86F01E1CC0EE001812A8 /* UIView+Extension.h */,
+				C39F86F11E1CC0EE001812A8 /* UIView+Extension.m */,
+				C31823271E14A9CF00C9CCA1 /* AppDelegate.h */,
+				C31823281E14A9CF00C9CCA1 /* AppDelegate.m */,
+				C318232A1E14A9CF00C9CCA1 /* ViewController.h */,
+				C318232B1E14A9CF00C9CCA1 /* ViewController.m */,
+				C318232D1E14A9CF00C9CCA1 /* Main.storyboard */,
+				C31823301E14A9CF00C9CCA1 /* Assets.xcassets */,
+				C31823321E14A9CF00C9CCA1 /* LaunchScreen.storyboard */,
+				C31823351E14A9CF00C9CCA1 /* Info.plist */,
+				C31823241E14A9CF00C9CCA1 /* Supporting Files */,
+			);
+			path = ShareTypeTest;
+			sourceTree = "<group>";
+		};
+		C31823241E14A9CF00C9CCA1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C31823251E14A9CF00C9CCA1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C318233D1E14A9CF00C9CCA1 /* ShareTypeTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				C318233E1E14A9CF00C9CCA1 /* ShareTypeTestTests.m */,
+				C31823401E14A9CF00C9CCA1 /* Info.plist */,
+			);
+			path = ShareTypeTestTests;
+			sourceTree = "<group>";
+		};
+		C31823481E14A9CF00C9CCA1 /* ShareTypeTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C31823491E14A9CF00C9CCA1 /* ShareTypeTestUITests.m */,
+				C318234B1E14A9CF00C9CCA1 /* Info.plist */,
+			);
+			path = ShareTypeTestUITests;
+			sourceTree = "<group>";
+		};
+		C39F86F31E1CC111001812A8 /* Share */ = {
+			isa = PBXGroup;
+			children = (
+				C39F86F41E1CC111001812A8 /* ShareButton.h */,
+				C39F86F51E1CC111001812A8 /* ShareButton.m */,
+				C39F86F61E1CC111001812A8 /* ShareView.h */,
+				C39F86F71E1CC111001812A8 /* ShareView.m */,
+			);
+			path = Share;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C31823201E14A9CF00C9CCA1 /* ShareTypeTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C318234E1E14A9CF00C9CCA1 /* Build configuration list for PBXNativeTarget "ShareTypeTest" */;
+			buildPhases = (
+				A4D8293C9F7B73DDB5C6E3F9 /* [CP] Check Pods Manifest.lock */,
+				C318231D1E14A9CF00C9CCA1 /* Sources */,
+				C318231E1E14A9CF00C9CCA1 /* Frameworks */,
+				C318231F1E14A9CF00C9CCA1 /* Resources */,
+				74B88C89E0BF96BF124868D0 /* [CP] Embed Pods Frameworks */,
+				67D35844BCE705ADC9B49AA5 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShareTypeTest;
+			productName = ShareTypeTest;
+			productReference = C31823211E14A9CF00C9CCA1 /* ShareTypeTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C31823391E14A9CF00C9CCA1 /* ShareTypeTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C31823511E14A9CF00C9CCA1 /* Build configuration list for PBXNativeTarget "ShareTypeTestTests" */;
+			buildPhases = (
+				C31823361E14A9CF00C9CCA1 /* Sources */,
+				C31823371E14A9CF00C9CCA1 /* Frameworks */,
+				C31823381E14A9CF00C9CCA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C318233C1E14A9CF00C9CCA1 /* PBXTargetDependency */,
+			);
+			name = ShareTypeTestTests;
+			productName = ShareTypeTestTests;
+			productReference = C318233A1E14A9CF00C9CCA1 /* ShareTypeTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C31823441E14A9CF00C9CCA1 /* ShareTypeTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C31823541E14A9CF00C9CCA1 /* Build configuration list for PBXNativeTarget "ShareTypeTestUITests" */;
+			buildPhases = (
+				C31823411E14A9CF00C9CCA1 /* Sources */,
+				C31823421E14A9CF00C9CCA1 /* Frameworks */,
+				C31823431E14A9CF00C9CCA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C31823471E14A9CF00C9CCA1 /* PBXTargetDependency */,
+			);
+			name = ShareTypeTestUITests;
+			productName = ShareTypeTestUITests;
+			productReference = C31823451E14A9CF00C9CCA1 /* ShareTypeTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C31823191E14A9CE00C9CCA1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = BOBO;
+				TargetAttributes = {
+					C31823201E14A9CF00C9CCA1 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 9CTK23A5EE;
+						ProvisioningStyle = Automatic;
+					};
+					C31823391E14A9CF00C9CCA1 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = ZX296CSVNT;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C31823201E14A9CF00C9CCA1;
+					};
+					C31823441E14A9CF00C9CCA1 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = ZX296CSVNT;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C31823201E14A9CF00C9CCA1;
+					};
+				};
+			};
+			buildConfigurationList = C318231C1E14A9CE00C9CCA1 /* Build configuration list for PBXProject "ShareTypeTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C31823181E14A9CE00C9CCA1;
+			productRefGroup = C31823221E14A9CF00C9CCA1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C31823201E14A9CF00C9CCA1 /* ShareTypeTest */,
+				C31823391E14A9CF00C9CCA1 /* ShareTypeTestTests */,
+				C31823441E14A9CF00C9CCA1 /* ShareTypeTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C318231F1E14A9CF00C9CCA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C31823341E14A9CF00C9CCA1 /* LaunchScreen.storyboard in Resources */,
+				C31823311E14A9CF00C9CCA1 /* Assets.xcassets in Resources */,
+				C318232F1E14A9CF00C9CCA1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C31823381E14A9CF00C9CCA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C31823431E14A9CF00C9CCA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		67D35844BCE705ADC9B49AA5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ShareTypeTest/Pods-ShareTypeTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		74B88C89E0BF96BF124868D0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ShareTypeTest/Pods-ShareTypeTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A4D8293C9F7B73DDB5C6E3F9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C318231D1E14A9CF00C9CCA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C318232C1E14A9CF00C9CCA1 /* ViewController.m in Sources */,
+				C31823291E14A9CF00C9CCA1 /* AppDelegate.m in Sources */,
+				C39F86F21E1CC0EE001812A8 /* UIView+Extension.m in Sources */,
+				C39F86F81E1CC111001812A8 /* ShareButton.m in Sources */,
+				C39F86F91E1CC111001812A8 /* ShareView.m in Sources */,
+				C31823261E14A9CF00C9CCA1 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C31823361E14A9CF00C9CCA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C318233F1E14A9CF00C9CCA1 /* ShareTypeTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C31823411E14A9CF00C9CCA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C318234A1E14A9CF00C9CCA1 /* ShareTypeTestUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C318233C1E14A9CF00C9CCA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C31823201E14A9CF00C9CCA1 /* ShareTypeTest */;
+			targetProxy = C318233B1E14A9CF00C9CCA1 /* PBXContainerItemProxy */;
+		};
+		C31823471E14A9CF00C9CCA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C31823201E14A9CF00C9CCA1 /* ShareTypeTest */;
+			targetProxy = C31823461E14A9CF00C9CCA1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C318232D1E14A9CF00C9CCA1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C318232E1E14A9CF00C9CCA1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C31823321E14A9CF00C9CCA1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C31823331E14A9CF00C9CCA1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C318234C1E14A9CF00C9CCA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C318234D1E14A9CF00C9CCA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C318234F1E14A9CF00C9CCA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34F2871A78C060968A500F2D /* Pods-ShareTypeTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9CTK23A5EE;
+				ENABLE_BITCODE = YES;
+				INFOPLIST_FILE = ShareTypeTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ivna.ShareTypeTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C31823501E14A9CF00C9CCA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71CFE5F38A5672BE97B37AA1 /* Pods-ShareTypeTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 9CTK23A5EE;
+				ENABLE_BITCODE = YES;
+				INFOPLIST_FILE = ShareTypeTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ivna.ShareTypeTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C31823521E14A9CF00C9CCA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = ZX296CSVNT;
+				INFOPLIST_FILE = ShareTypeTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ivna.ShareTypeTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShareTypeTest.app/ShareTypeTest";
+			};
+			name = Debug;
+		};
+		C31823531E14A9CF00C9CCA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = ZX296CSVNT;
+				INFOPLIST_FILE = ShareTypeTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ivna.ShareTypeTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShareTypeTest.app/ShareTypeTest";
+			};
+			name = Release;
+		};
+		C31823551E14A9CF00C9CCA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = ZX296CSVNT;
+				INFOPLIST_FILE = ShareTypeTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ivna.ShareTypeTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ShareTypeTest;
+			};
+			name = Debug;
+		};
+		C31823561E14A9CF00C9CCA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = ZX296CSVNT;
+				INFOPLIST_FILE = ShareTypeTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ivna.ShareTypeTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ShareTypeTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C318231C1E14A9CE00C9CCA1 /* Build configuration list for PBXProject "ShareTypeTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C318234C1E14A9CF00C9CCA1 /* Debug */,
+				C318234D1E14A9CF00C9CCA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C318234E1E14A9CF00C9CCA1 /* Build configuration list for PBXNativeTarget "ShareTypeTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C318234F1E14A9CF00C9CCA1 /* Debug */,
+				C31823501E14A9CF00C9CCA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C31823511E14A9CF00C9CCA1 /* Build configuration list for PBXNativeTarget "ShareTypeTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C31823521E14A9CF00C9CCA1 /* Debug */,
+				C31823531E14A9CF00C9CCA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C31823541E14A9CF00C9CCA1 /* Build configuration list for PBXNativeTarget "ShareTypeTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C31823551E14A9CF00C9CCA1 /* Debug */,
+				C31823561E14A9CF00C9CCA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C31823191E14A9CE00C9CCA1 /* Project object */;
+}
